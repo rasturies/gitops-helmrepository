@@ -1,15 +1,18 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{ include "echobot.fullname" . }}-test-connection"
+  name: "{{ include "echobot.fullname" . }}-test-file"
   labels:
     {{- include "echobot.labels" . | nindent 4 }}
   annotations:
     "helm.sh/hook": test
 spec:
   containers:
-    - name: wget
-      image: busybox
-      command: ['wget']
-      args: ['{{ include "echobot.fullname" . }}:{{ .Values.service.port }}']
+    - name: test
+      image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+      command:
+        - '/usr/bin/test'
+      args:
+        - '-f'
+        - '/usr/local/bin/gitops-echobot'
   restartPolicy: Never
