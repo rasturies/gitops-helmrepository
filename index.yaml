@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  echobot:
+  - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2021-05-23T17:02:52.39336553Z"
+    description: A Helm chart for the echobot service
+    digest: d7d83dc45fbe0ac819822980bec2922e835a51d65ce36902801f223a3fd495dd
+    name: echobot
+    type: application
+    urls:
+    - https://github.com/sngular/gitops-helmrepository/releases/download/echobot-0.1.0/echobot-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-23T17:02:52.39337193Z"
