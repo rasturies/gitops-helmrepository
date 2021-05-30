@@ -13,7 +13,7 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-env: {}
+env: []
   # - name: VARIABLE_NAME
   #   value: "Example value"
 

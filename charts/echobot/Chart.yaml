@@ -2,7 +2,7 @@ apiVersion: v2
 name: echobot
 description: A Helm chart for the echobot service
 type: application
-version: 0.3.2
+version: 0.3.3
 appVersion: "v0.2.0"
 maintainers:
 - email: manuel.morejon@users.noreply.github.com
