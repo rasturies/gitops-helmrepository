@@ -1,0 +1,25 @@
+{{- if .Values.mongodb }}
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "echobot.fullname" . }}-test-mongodb"
+  labels:
+    {{- include "echobot.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: {{ .Release.Name }}-mongodb-test
+      image: "mongo"
+      command:
+        - '/usr/bin/mongo'
+      args:
+        - '$MONGODB_URI'
+      env:
+        - name: MONGODB_URI
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.mongodb.existingSecret }}
+              key: uri
+  restartPolicy: Never
+{{- end }}
