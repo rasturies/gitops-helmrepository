@@ -3,6 +3,21 @@ entries:
   echobot:
   - apiVersion: v2
     appVersion: v0.2.0
+    created: "2021-05-30T22:10:34.847857084Z"
+    description: A Helm chart for the echobot service
+    digest: bb7fb7ff3eecaf747ecac09d699526a19137bb24761c2e432b0ffdebec410fb8
+    maintainers:
+    - email: manuel.morejon@users.noreply.github.com
+      name: mmorejon
+    - email: enrique.benito@users.noreply.github.com
+      name: enribd
+    name: echobot
+    type: application
+    urls:
+    - https://github.com/sngular/gitops-helmrepository/releases/download/echobot-0.3.3/echobot-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    appVersion: v0.2.0
     created: "2021-05-30T10:37:40.33339255Z"
     description: A Helm chart for the echobot service
     digest: 74692f28066db5afed2e43bbb4eec4721b1a576c45d351b8d4310b8222f6a0e8
@@ -96,4 +111,4 @@ entries:
     urls:
     - https://github.com/sngular/gitops-helmrepository/releases/download/echobot-0.1.0/echobot-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-30T10:37:40.33346145Z"
+generated: "2021-05-30T22:10:34.847887484Z"
