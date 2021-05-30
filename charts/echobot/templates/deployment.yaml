@@ -35,7 +35,14 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           {{- with .Values.env }}
           env:
-            {{- toYaml .Values.env | nindent 12 }}
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          {{- if .Values.mongodb.existingSecret }}
+          - name: MONGODB_URI
+            valueFrom:
+              secretKeyRef:
+                name: {{ .Values.mongodb.existingSecret }}
+                key: uri
           {{- end }}
           livenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
