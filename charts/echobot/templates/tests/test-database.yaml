@@ -14,7 +14,7 @@ spec:
       command:
         - '/usr/bin/mongo'
       args:
-        - '$MONGODB_URI'
+        - "$MONGODB_URI"
       env:
         - name: MONGODB_URI
           valueFrom:
