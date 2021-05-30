@@ -17,6 +17,12 @@ env: {}
   # - name: VARIABLE_NAME
   #   value: "Example value"
 
+# -- Configuración de MongoDB. Contiene la clave `existingSecret` con el nombre del
+# secreto a utilizar. Este secreto debe contener la clave `uri` con la cadena de conexión
+# a la base de datos (`mongodb://...`)
+mongodb: {}
+  # existingSecret: mongodb-uri
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
