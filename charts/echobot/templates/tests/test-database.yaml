@@ -10,11 +10,12 @@ metadata:
 spec:
   containers:
     - name: {{ .Release.Name }}-mongodb-test
-      image: "mongo"
+      image: "busybox"
       command:
-        - '/usr/bin/mongo'
+        - "/bin/sh"
       args:
-        - "$MONGODB_URI"
+        - "-c"
+        - "mongo_host=$(echo $MONGODB_URI | sed -e 's/.*@//' -e 's/:.*//' -e 's/\\/.*//'); echo -n | /bin/telnet $mongo_host 27017"
       env:
         - name: MONGODB_URI
           valueFrom:
