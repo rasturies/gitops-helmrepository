@@ -126,4 +126,20 @@ entries:
     urls:
     - https://github.com/sngular/gitops-helmrepository/releases/download/echobot-0.1.0/echobot-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-12T12:45:22.520307557Z"
+  webhook:
+  - apiVersion: v2
+    appVersion: v0.2.1
+    created: "2021-07-01T20:58:39.188765369Z"
+    description: A Helm chart for the webhook service
+    digest: 7e9012526f0f4e2cf440e29eb7cf9a5bb730d5bea40719157216fb9821a243cd
+    maintainers:
+    - email: manuel.morejon@users.noreply.github.com
+      name: mmorejon
+    - email: enrique.benito@users.noreply.github.com
+      name: enribd
+    name: webhook
+    type: application
+    urls:
+    - https://github.com/sngular/gitops-helmrepository/releases/download/webhook-0.1.0/webhook-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-01T20:58:39.18880007Z"
