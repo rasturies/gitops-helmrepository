@@ -1,0 +1,2 @@
+Webhook application is running. Print logs with this command:
+kubectl --namespace {{ .Release.Namespace }} logs --selector app.kubernetes.io/name={{ .Release.Name }}
