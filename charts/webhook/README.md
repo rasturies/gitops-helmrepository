@@ -1,8 +1,10 @@
 # webhook
 
-![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.2.1](https://img.shields.io/badge/AppVersion-v0.2.1-informational?style=flat-square)
+![Version: 0.1.1](https://img.shields.io/badge/Version-0.1.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.2.1](https://img.shields.io/badge/AppVersion-v0.2.1-informational?style=flat-square)
 
 A Helm chart for the webhook service
+
+**Homepage:** <https://github.com/sngular/gitops-webhook>
 
 ## Maintainers
 
@@ -10,6 +12,14 @@ A Helm chart for the webhook service
 | ---- | ------ | --- |
 | mmorejon | manuel.morejon@users.noreply.github.com |  |
 | enribd | enrique.benito@users.noreply.github.com |  |
+
+## Source Code
+
+* <https://github.com/sngular/gitops-webhook>
+
+## Requirements
+
+Kubernetes: `>=1.19.0-0`
 
 ## Values
 
