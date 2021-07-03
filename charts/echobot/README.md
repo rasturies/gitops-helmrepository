@@ -1,8 +1,10 @@
 # echobot
 
-![Version: 0.3.4](https://img.shields.io/badge/Version-0.3.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.2.1](https://img.shields.io/badge/AppVersion-v0.2.1-informational?style=flat-square)
+![Version: 0.3.5](https://img.shields.io/badge/Version-0.3.5-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.2.2](https://img.shields.io/badge/AppVersion-v0.2.2-informational?style=flat-square)
 
 A Helm chart for the echobot service
+
+**Homepage:** <https://github.com/sngular/gitops-echobot>
 
 ## Maintainers
 
@@ -10,6 +12,14 @@ A Helm chart for the echobot service
 | ---- | ------ | --- |
 | mmorejon | manuel.morejon@users.noreply.github.com |  |
 | enribd | enrique.benito@users.noreply.github.com |  |
+
+## Source Code
+
+* <https://github.com/sngular/gitops-echobot>
+
+## Requirements
+
+Kubernetes: `>=1.19.0-0`
 
 ## Values
 
