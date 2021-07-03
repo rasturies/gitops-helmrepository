@@ -149,6 +149,26 @@ entries:
   webhook:
   - apiVersion: v2
     appVersion: v0.2.1
+    created: "2021-07-03T20:09:44.986441135Z"
+    description: A Helm chart for the webhook service
+    digest: 1e918a09a80edaa55c26753ae8919b5ab72c71976134e40f06395511341bafde
+    home: https://github.com/sngular/gitops-webhook
+    icon: https://www.sngular.com/wp-content/uploads/2021/06/SNGULAR.svg
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: manuel.morejon@users.noreply.github.com
+      name: mmorejon
+    - email: enrique.benito@users.noreply.github.com
+      name: enribd
+    name: webhook
+    sources:
+    - https://github.com/sngular/gitops-webhook
+    type: application
+    urls:
+    - https://github.com/sngular/gitops-helmrepository/releases/download/webhook-0.1.1/webhook-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v0.2.1
     created: "2021-07-01T20:58:39.188765369Z"
     description: A Helm chart for the webhook service
     digest: 7e9012526f0f4e2cf440e29eb7cf9a5bb730d5bea40719157216fb9821a243cd
@@ -162,4 +182,4 @@ entries:
     urls:
     - https://github.com/sngular/gitops-helmrepository/releases/download/webhook-0.1.0/webhook-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-03T19:50:17.741064674Z"
+generated: "2021-07-03T20:09:44.986472733Z"
