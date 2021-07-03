@@ -3,7 +3,12 @@ name: echobot
 description: A Helm chart for the echobot service
 type: application
 version: 0.3.4
-appVersion: "v0.2.1"
+appVersion: "v0.2.2"
+icon: https://www.sngular.com/wp-content/uploads/2021/06/SNGULAR.svg
+home: https://github.com/sngular/gitops-echobot
+sources:
+- https://github.com/sngular/gitops-echobot
+kubeVersion: ">=1.19.0-0"
 maintainers:
 - email: manuel.morejon@users.noreply.github.com
   name: mmorejon
